@@ -15,42 +15,42 @@ versions of mootools. It works well enough in most browsers (tested in FireFox, 
 
 Add in the HTML
 
-<script type="text/javascript" src="/js/mootools-1.2.4-core.js"></script>
-<link rel="stylesheet" media="screen" href="/mootools/fb-modal/style.css" type="text/css" />
-<script type="text/javascript" src="/mootools/fb-modal/FbModal.class.js"></script>
+			type="text/javascript" src="/js/mootools-1.2.4-core.js"
+			link rel="stylesheet" media="screen" href="/mootools/fb-modal/style.css" type="text/css"
+			script type="text/javascript" src="/mootools/fb-modal/FbModal.class.js"
 
 Construct the Object
 
-var modal;
- 
-window.addEvent('domready',function(){
-	modal = new FbModal({
-		'title': 'My Modal',
-		'subTitle': 'This is the FB Modal demo.',
-		'content': 'Lorem ipsum dolor sit amet...',
-		'height' : 330,
-		'width' : 800
-	});
-});
+			var modal;
+			 
+			window.addEvent('domready',function(){
+				modal = new FbModal({
+					'title': 'My Modal',
+					'subTitle': 'This is the FB Modal demo.',
+					'content': 'Lorem ipsum dolor sit amet...',
+					'height' : 330,
+					'width' : 800
+				});
+			});
 
 The objects constructor automatically creates the modal and displays it. The same modal can subsequently be called like this:
 
-modal.drawModal();
+			modal.drawModal();
 
 Changing the title, subtitle, and body
 
-modal.setTitle('My new title');
-modal.setSubTitle('a new subtitle');
-modal.setContent('Some new content');
+			modal.setTitle('My new title');
+			modal.setSubTitle('a new subtitle');
+			modal.setContent('Some new content');
 
 Save and Close buttons plus destroy
 
 By default the modal will create a close button. You can override this in the constructors options by setting closeButton: false.
 
 
-modal.createCloseButton(); // creates a close button
-modal.createSaveButton('SaveButtonId','Save Button Value'); // creates a save button with id: SaveButtonId and value: Save Button Value
-modal.destroy(); // destroys/hides the modal.
+			modal.createCloseButton(); // creates a close button
+			modal.createSaveButton('SaveButtonId','Save Button Value'); // creates a save button with id: SaveButtonId and value: Save Button Value
+			modal.destroy(); // destroys/hides the modal.
 
 Creating a new modal while one is open
 
