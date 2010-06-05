@@ -2,9 +2,6 @@ FbModal 0.9.1
 ===============================
 This MooTools javascript window modal overlay window is designed to look similar to the modal used by a prominent social networking site.
 
-
-Screenshots
-----------------------
 ![Screenshot](http://www.cnizz.com/mootools/fb-modal/fbmodal.png)
 
 
@@ -19,9 +16,9 @@ versions of mootools. It works well enough in most browsers (tested in FireFox, 
 
 Add in the HTML
 
-			type="text/javascript" src="/js/mootools-1.2.4-core.js"
-			link rel="stylesheet" media="screen" href="/mootools/fb-modal/style.css" type="text/css"
-			script type="text/javascript" src="/mootools/fb-modal/FbModal.class.js"
+			<script type="text/javascript" src="/js/mootools-1.2.4-core.js"></script>
+			<link rel="stylesheet" media="screen" href="/mootools/fb-modal/style.css" type="text/css">
+			<script type="text/javascript" src="/mootools/fb-modal/FbModal.class.js"></script>
 
 Construct the Object
 
@@ -87,3 +84,5 @@ Changing content and what the Save button does
 				    }
 				}).send('action=SaveUser');
 			})
+			
+Additional documentation is available via my blog http://blog.cnizz.com/tag/fbmodal/
