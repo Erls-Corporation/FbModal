@@ -12,7 +12,7 @@ This MooTools javascript window modal overlay window is designed to look similar
 I had been using the awesome MochaUI for modals, but I decided to develop my own lightweight solution after reading this blog post by David Walsh. 
 I based the CSS and functionality off of his original code, but I enhanced the javascript by making it object oriented and leveraging mootools 
 to create the DOM elements on the fly. I also added a few other helpful methods. It uses mootools 1.2.4 and has not been tested with other 
-versions of mootools. It works well enough in most browsers (tested in FireFox, Chrome, and IE). Click here to view the demo. Lets get started.</p>
+versions of mootools. It works well enough in most browsers (tested in FireFox, Chrome, and IE). Click here to view the demo. Lets get started.
 
 Add in the HTML
 
