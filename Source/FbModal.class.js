@@ -15,6 +15,7 @@ provides: [modal]
 var FbModal = new Class({
 	Implements: [Options],
 	options:{
+		parentEl: '',
 		title: '',
 		subTitle: '', 
 		content: '',
@@ -29,10 +30,19 @@ var FbModal = new Class({
 	},
 	drawModal: function(){
 		// create surounding divs
-		var ModalElement = new Element('div',{
-			'class' : 'generic_dialog', 
-			'id' : 'fb-modal'
-		}).inject($('Content'),'bottom');
+		if(typeof(this.options.parentEl)=='string'){
+			var ModalElement = new Element('div',{
+				'class' : 'generic_dialog', 
+				'id' : 'fb-modal'
+			}).inject($(this.options.parentEl),'bottom');
+		}
+		else if(typeof(this.options.parentEl)=='object'){
+			var ModalElement = new Element('div',{
+				'class' : 'generic_dialog', 
+				'id' : 'fb-modal'
+			}).inject(this.options.parentEl,'bottom');
+		}
+
 		
 		new Element('div',{
 			'class' : 'generic_dialog_popup', 
