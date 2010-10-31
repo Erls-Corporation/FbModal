@@ -87,8 +87,6 @@ Changing content and what the Save button does
 		}).send('action=SaveUser');
 	})
 		
-<<<<<<< HEAD
 Additional documentation is available via my blog http://blog.cnizz.com/tag/fbmodal/
 =======
 Additional documentation is available via my blog <a href="http://blog.cnizz.com/tag/fbmodal/">http://blog.cnizz.com/tag/fbmodal/</a>
->>>>>>> 14f3d61f1650af21a768778127c9657070b55df9
