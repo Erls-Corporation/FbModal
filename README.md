@@ -1,4 +1,4 @@
-FbModal 0.9.2
+FbModal 0.9.3
 ===============================
 This MooTools javascript window modal overlay window is designed to look similar to the modal used by a prominent social networking site.
 
