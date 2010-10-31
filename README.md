@@ -1,6 +1,6 @@
 FbModal 0.9.3
 ===============================
-This MooTools javascript window modal overlay window is designed to look similar to the modal used by a prominent social networking site.
+This MooTools javascript window modal overlay window is designed to look similar to the modal used by a prominent social networking site.  I like to know who's using my code and if you've encountered any problems, love it, hate it, or want me to add more to it.  So a drop a comment on my <a href="http://blog.cnizz.com/tag/fbmodal/">blog post</a>.
 
 ![Screenshot](http://www.cnizz.com/mootools/fb-modal/fbmodal.png)
 
@@ -87,4 +87,8 @@ Changing content and what the Save button does
 		}).send('action=SaveUser');
 	})
 		
+<<<<<<< HEAD
 Additional documentation is available via my blog http://blog.cnizz.com/tag/fbmodal/
+=======
+Additional documentation is available via my blog <a href="http://blog.cnizz.com/tag/fbmodal/">http://blog.cnizz.com/tag/fbmodal/</a>
+>>>>>>> 14f3d61f1650af21a768778127c9657070b55df9
